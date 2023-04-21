@@ -25,7 +25,7 @@ digits = {
 number = ""
 output = ""
 
-def word_to_num(string):
+def word_to_num(string : str) - > str:
 
     """
 
@@ -95,7 +95,7 @@ def word_to_num(string):
 
 
 
-def num_to_word(num):
+def num_to_word(num : str) -> str:
 
     """
 
@@ -119,7 +119,7 @@ def num_to_word(num):
 
 
 
-def gcd(number1, number2):
+def gcd(number1 : int, number2 : int) -> int:
 
     """
 
