@@ -1,4 +1,4 @@
-def group_anagrams(lst):
+def group_anagrams(lst : list[strs]) -> dict[list]:
     
     """
     Groups the words in the given list into sets of anagrams.
@@ -36,9 +36,6 @@ try:
              raise ValueError("Please Enter String In LowerCase")
             if len(item) >  100 or len(item) < 0:
                     raise ValueError("Bigger or Smaller String Entered than Expected")
-
-        
-
 
         
     anagrams = group_anagrams(strs)
