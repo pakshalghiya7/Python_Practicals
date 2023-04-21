@@ -1,4 +1,4 @@
-def group_anagrams(lst : list[strs]) -> dict[list]:
+def group_anagrams(lst : list[str]) -> dict[list]:
     
     """
     Groups the words in the given list into sets of anagrams.
